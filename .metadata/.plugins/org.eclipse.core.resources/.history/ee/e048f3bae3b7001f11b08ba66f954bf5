@@ -1,0 +1,29 @@
+package com.edubridge.maven_project1;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class CustomerTest {
+	
+	@Test
+	public void testcustomerid() {
+		Customer cu = new Customer();
+	    int actual = cu.getCustomerId();
+		int expected = 101;
+		
+		Assertions.assertEquals(expected, actual);
+		
+	}
+	
+	@Test
+	public void testcustomername() {
+		Customer cu = new Customer();
+	    String actual = cu.getCustomerName();
+		int expected = 101;
+		
+	}
+	
+	
+	
+	
+}

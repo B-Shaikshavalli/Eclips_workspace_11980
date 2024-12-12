@@ -1,0 +1,15 @@
+import java.io.BufferedReader;
+import java.util.Scanner;
+
+
+public class FileDemo {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		String sf = s.next();
+		BufferedReader br = new BufferedReader(sf);
+
+	}
+
+}

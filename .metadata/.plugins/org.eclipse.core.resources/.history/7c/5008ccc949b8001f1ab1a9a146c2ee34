@@ -1,0 +1,11 @@
+package com.edubridge.maven_project1;
+
+public class AuthService {
+	
+	public boolean authentecate(String userName,String userPassword) {
+		if(userName.equals(userName) && this.userPassword.equals(userPassword)) {
+			
+		}
+	}
+
+}

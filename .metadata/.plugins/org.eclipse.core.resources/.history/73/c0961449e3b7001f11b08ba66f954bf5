@@ -1,0 +1,15 @@
+package com.edubridge.maven_project1;
+
+public class CustomerTest {
+	
+	public void testcustomer() {
+		Customer cu = new Customer();
+		int actual = cu.setCustomerId(101);
+		int expected = 101;
+		
+	}
+	
+	
+	
+	
+}

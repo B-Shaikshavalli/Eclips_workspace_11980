@@ -1,0 +1,11 @@
+package com.edubridge.maven_project1;
+
+public class CalacTest {
+	
+	public void testFindSquare() {
+		Calc c = new Calc();
+		int actual = c.findSquare(10);
+		int expected = 100;
+	}
+
+}

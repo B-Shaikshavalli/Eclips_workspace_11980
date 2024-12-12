@@ -1,0 +1,10 @@
+package java8features;
+
+public interface LambdaExpressions {
+	void greet();
+	
+
+}
+public class LambdaExpressions{
+	
+}

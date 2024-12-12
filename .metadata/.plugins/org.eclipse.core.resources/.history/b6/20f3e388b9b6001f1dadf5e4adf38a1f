@@ -1,0 +1,11 @@
+package com.edubridge.app4;
+import com.edubridge.app3.Calc;
+
+public class CalcTest {
+	public static void main(String[] args) {
+		System.out.println(Calc.findadd(20,41));
+	}
+	
+   
+
+}

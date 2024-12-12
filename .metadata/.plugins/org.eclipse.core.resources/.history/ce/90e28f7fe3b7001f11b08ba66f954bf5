@@ -1,0 +1,26 @@
+package com.edubridge.maven_project1;
+
+import org.junit.jupiter.api.Test;
+
+public class CustomerTest {
+	
+	@Test
+	public void testcustomerid() {
+		Customer cu = new Customer();
+	    int actual = cu.getCustomerId();
+		int expected = 101;
+		
+	}
+	
+	@Test
+	public void testcustomername() {
+		Customer cu = new Customer();
+	    int actual = cu.getCustomerId();
+		int expected = 101;
+		
+	}
+	
+	
+	
+	
+}

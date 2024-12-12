@@ -1,0 +1,39 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Stack;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		TreeSet<Integer> t = new TreeSet<>();
+		/*
+		 HashSet
+		 1.maintain order	
+		 2.duplicate	
+		  */
+		t.add(100);
+		t.add(200);
+		t.add(500);
+		t.add(400);
+		t.add(300);
+		
+		System.out.println(t);
+		t.add(100);
+		System.out.println(t);
+		
+		TreeSet<String> t = new TreeSet<>();
+		 
+		t.add("Java");
+		t.add("Python");
+		t.add("JS");
+		t.add("Angular");
+		t.add("React");
+		
+	    System.out.println(t);
+
+	}
+
+}

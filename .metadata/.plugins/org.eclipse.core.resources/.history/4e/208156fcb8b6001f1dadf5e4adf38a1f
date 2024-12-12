@@ -1,0 +1,10 @@
+package com.edubridge.app3;
+
+public class Calc {
+	
+	public static int findIntrest(int p,int t){
+		return p + t;//p >principal amount,t >time,r >rate of interest
+		
+	}
+
+}
